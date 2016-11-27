@@ -1,4 +1,4 @@
-### pebble-ikst
+### Pebble ICST
 ---
 
-IKST watchface for Pebble/Pebble Steel (Aplite)
+ICST watchface for Pebble/Pebble Steel (Aplite)
