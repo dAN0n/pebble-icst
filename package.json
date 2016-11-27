@@ -1,0 +1,80 @@
+{
+  "name": "icst",
+  "author": "dAN0n",
+  "version": "1.0.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "dependencies": {
+    "pebble-clay": "^1.0.4",
+    "pebble-effect-layer": "^1.1.4"
+  },
+  "pebble": {
+    "displayName": "ICST SPbSTU",
+    "uuid": "49ab0c24-eb26-47ac-97c7-2553fb277393",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "capabilities": [
+      "configurable"
+    ],
+    "messageKeys": [
+      "invert"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "font",
+          "name": "FONT_48",
+          "file": "fonts/BroshK.ttf"
+        },
+        {
+          "type": "font",
+          "name": "FONT_28",
+          "file": "fonts/BroshK.ttf"
+        },
+        {
+          "type": "bitmap",
+          "name": "LOGO_WHITE",
+          "file": "images/logo.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "BAT100",
+          "file": "images/bat100.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "BAT80",
+          "file": "images/bat80.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "BAT60",
+          "file": "images/bat60.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "BAT40",
+          "file": "images/bat40.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "BAT20",
+          "file": "images/bat20.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "BT",
+          "file": "images/bt-icon.png"
+        }
+      ]
+    }
+  }
+}
