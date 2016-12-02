@@ -147,7 +147,7 @@ static void main_window_load(Window *window){
 	s_date_layer = text_layer_create(
 		GRect(0, -20, 100, sizeY));
 	s_week_layer = text_layer_create(
-		GRect(rightBorderX - 2, -3, sizeX, sizeY - 20));
+		GRect(rightBorderX - 2, -3, sizeX + 1, sizeY - 20));
 	s_minute_layer = text_layer_create(
 		GRect(rightBorderX, rightMinuteBorderY, sizeX, sizeY));
 	s_hour_layer = text_layer_create(
@@ -161,8 +161,8 @@ static void main_window_load(Window *window){
 	set_bg_layer(s_bt_layer, s_bt_bmap);
 
 	// Improve the layout to be more like a watchface
-	set_time_layer(s_week_layer, s_week_font);
 	set_time_layer(s_date_layer, s_time_font);
+	set_time_layer(s_week_layer, s_week_font);  
 	set_time_layer(s_hour_layer, s_time_font);
 	set_time_layer(s_minute_layer, s_time_font);
 
