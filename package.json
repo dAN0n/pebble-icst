@@ -19,7 +19,6 @@
       "aplite"
     ],
     "watchapp": {
-      "hiddenApp": true,
       "watchface": true
     },
     "capabilities": [
